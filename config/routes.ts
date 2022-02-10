@@ -43,10 +43,17 @@
     ],
   },
   {
-    name: 'dmc-data-sync-task-manange',
+    name: 'data-meta',
     icon: 'table',
-    path: '/dmc/data-sync-task-manage',
-    component: './dmc/data-sync-task-manage',
+    path: '/data-meta',
+    routes: [
+      {
+        name: 'data-meta.datasource',
+        icon: 'table',
+        path: '/data-meta/datasource',
+        component: './data-meta/DataSource',
+      },
+    ],
   },
   {
     path: '/',
